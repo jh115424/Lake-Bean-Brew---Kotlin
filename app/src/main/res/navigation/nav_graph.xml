@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.lakebeanbrew.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.lakebeanbrew.MenuFragment"
+        android:label="Menu" />
+
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.example.lakebeanbrew.CheckoutFragment"
+        android:label="Checkout" />
+
+</navigation>

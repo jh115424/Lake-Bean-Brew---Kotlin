@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lake &amp; Bean Brew</string>
+    <string name="brown_sugar_cold_brew">Brown Sugar Cold Brew</string>
+    <string name="caramel_frappuccino">Caramel Frappuccino</string>
+    <string name="chocolate_truffle_mocha">Chocolate Truffle Mocha</string>
+    <string name="iced_vanilla_frappuccino">Iced Vanilla Frappuccino</string>
+    <string name="chicago_background">chicago_background</string>
 </resources>

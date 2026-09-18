@@ -1,4 +1,7 @@
 package com.example.lakebeanbrew
 
-class CheckoutFragment {
+import androidx.fragment.app.Fragment
+
+
+class CheckoutFragment : Fragment() {
 }
