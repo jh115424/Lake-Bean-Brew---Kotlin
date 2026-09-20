@@ -7,12 +7,20 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.lakebeanbrew.HomeFragment"
-        android:label="Home" />
+        android:label="Home" >
+        <action
+            android:id="@+id/action_homeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.example.lakebeanbrew.MenuFragment"
-        android:label="Menu" />
+        android:label="Menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_checkoutFragment3"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/checkoutFragment"
