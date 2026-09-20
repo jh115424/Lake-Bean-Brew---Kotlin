@@ -1,5 +1,6 @@
 package com.example.lakebeanbrew
+
 import androidx.fragment.app.Fragment
 
-class HomeFragment : Fragment(){
+class HomeFragment : Fragment(R.layout.fragment_home) {
 }
