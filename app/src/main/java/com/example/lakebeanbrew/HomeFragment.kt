@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
@@ -14,9 +15,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
 
 
-order.setOnClickListener {
-
-}
+        order.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_menuFragment)
+        }
     }
 
 
