@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fontFamily="@font/playfair_display">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:gravity="center"
             android:text="@string/our_menu"
             android:textSize="34sp"
-            android:paddingTop="70dp"
+            android:paddingTop="60dp"
             android:textColor="@color/black"
             android:textStyle="bold" />
 
@@ -49,17 +49,118 @@
             android:textColor="@color/black"
             android:textStyle="normal" />
 
-
-        <androidx.cardview.widget.CardView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="155dp">
 
-        </androidx.cardview.widget.CardView>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/menu_img_cinnamon_latte"
+                android:layout_width="206dp"
+                android:layout_height="215dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/brown_sugar_brew"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageCorners" />
 
+            <View
+                android:id="@+id/menu_card_background"
+                android:layout_width="201dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="46dp"
+                android:background="#FAF7F2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/menu_img_cinnamon_latte"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="start"
+                android:text="@string/Smooth_Chicago_cold_brew_with_sweet_brown_sugar."
+                android:textSize="18sp"
+                android:paddingTop="55dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@id/menu_img_cinnamon_latte"
+                app:layout_constraintEnd_toStartOf="@id/menu_arrow"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_arrow"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/arrow"
+                android:layout_marginBottom="46dp"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/menu_card_background"
+                app:layout_constraintBottom_toBottomOf="@id/menu_card_background" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/menu_caramel_frappuccino"
+                android:layout_width="206dp"
+                android:layout_height="215dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/caramel_frappuccino"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageCorners" />
+
+            <View
+                android:id="@+id/menu_card_caramel_frappuccino"
+                android:layout_width="201dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="46dp"
+                android:background="#FAF7F2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/menu_caramel_frappuccino"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_description_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="start"
+                android:text="@string/Sweet_caramel_bold_coffee_pure_bliss..."
+                android:textSize="18sp"
+                android:paddingEnd="20dp"
+                android:paddingTop="55dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toStartOf="@id/menu_arrow_2"
+                app:layout_constraintStart_toEndOf="@id/menu_caramel_frappuccino"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_arrow_2"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/arrow"
+                android:layout_marginBottom="46dp"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/menu_card_caramel_frappuccino"
+                app:layout_constraintBottom_toBottomOf="@id/menu_card_caramel_frappuccino" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-

@@ -10,8 +10,11 @@
     <string name="home_icon">Home</string>
     <string name="order_icon">Order</string>
     <string name="our_menu">Our Menu</string>
+    <string name="arrow">›</string>
     <string name="Chicago_inspired_coffee">Chicago inspired coffee.</string>
     <string name="Crafted_for_your_day">Crafted for your day.</string>
+    <string name="Sweet_caramel_bold_coffee_pure_bliss...">Sweet caramel, bold coffee, pure bliss...</string>
+    <string name="Smooth_Chicago_cold_brew_with_sweet_brown_sugar.">Smooth Chicago cold brew with sweet brown sugar</string>
 
 
 </resources>
