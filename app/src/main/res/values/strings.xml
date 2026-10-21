@@ -15,7 +15,10 @@
     <string name="Crafted_for_your_day">Crafted for your day.</string>
     <string name="Sweet_caramel_bold_coffee_pure_bliss...">Sweet caramel, bold coffee, pure bliss...</string>
     <string name="Smooth_cold_brew_with_sweet_brown_sugar.">Smooth cold brew with sweet brown sugar</string>
-<string name="Rich_chocolate_velvety_mocha_pure_indulgence.">Rich chocolate, velvety mocha, pure indulgence</string>
+    <string name="Rich_chocolate_velvety_mocha_pure_indulgence.">Rich chocolate, velvety mocha, pure indulgence</string>
     <string name="Creamy_real_vanilla_frosty_bliss_in_every_sip.">Creamy real vanilla, frosty bliss in every sip.</string>
+    <string name="your_order">Your Order</string>
+    <string name="almost_there_Lets_make_it_yours">Almost there! Lets make it yours.</string>
+    <string name="Size">Size</string>
 
 </resources>
