@@ -20,5 +20,23 @@
     <string name="your_order">Your Order</string>
     <string name="almost_there_Lets_make_it_yours">Almost there! Lets make it yours.</string>
     <string name="Size">Size</string>
+    <string name="Small">Small</string>
+    <string name="Medium">Medium</string>
+    <string name="Large">Large</string>
+    <string name="No_ice">No ice</string>
+    <string name="Ice_level">Ice level</string>
+    <string name="Regular">Regular</string>
+    <string name="Light">Light</string>
+    <string name="Extra">Extra</string>
+    <string name="Add_ons">Add-Ons</string>
+
+    <string name="extra_shot">Extra Shot</string>
+    <string name="add_on_price">+$0.50</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="caramel_drizzle">Caramel Drizzle</string>
+    <string name="total">Total</string>
+    <string name="checkout_total_price">$5.50</string>
+    <string name="add_to_order">☕ Add to Order</string>
+
 
 </resources>
