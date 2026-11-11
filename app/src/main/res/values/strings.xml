@@ -29,7 +29,7 @@
     <string name="Light">Light</string>
     <string name="Extra">Extra</string>
     <string name="Add_ons">Add-Ons</string>
-
+    <string name="brown_sugar_price">$5.75</string>
     <string name="extra_shot">Extra Shot</string>
     <string name="add_on_price">+$0.50</string>
     <string name="whipped_cream">Whipped Cream</string>
@@ -37,6 +37,9 @@
     <string name="total">Total</string>
     <string name="checkout_total_price">$5.50</string>
     <string name="add_to_order">☕ Add to Order</string>
+    <string name="caramel_price">$6.75</string>
+    <string name="chocolate_truffle_price">$7.25</string>
+    <string name="vanilla_frappe_price">$6.50</string>
 
 
 </resources>

@@ -3,6 +3,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -82,7 +83,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/playfair_display"
-
                 android:paddingLeft="20dp"
                 android:paddingTop="22dp"
                 android:paddingRight="20dp"
@@ -94,6 +94,19 @@
                 app:layout_constraintEnd_toStartOf="@id/menu_arrow"
                 app:layout_constraintStart_toEndOf="@id/menu_img_cinnamon_latte"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_price"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/brown_sugar_price"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/menu_description"
+                app:layout_constraintStart_toStartOf="@id/menu_description"
+                app:layout_constraintEnd_toStartOf="@id/menu_arrow"
+                />
 
             <TextView
                 android:id="@+id/menu_arrow"
@@ -152,6 +165,17 @@
                 app:layout_constraintEnd_toStartOf="@id/menu_arrow_2"
                 app:layout_constraintStart_toEndOf="@id/menu_caramel_frappuccino"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menu_price_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caramel_price"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/menu_description_2"
+                app:layout_constraintStart_toStartOf="@id/menu_description_2"
+                app:layout_constraintEnd_toStartOf="@id/menu_arrow_2" />
 
             <TextView
                 android:id="@+id/menu_arrow_2"
@@ -214,6 +238,17 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/menu_price_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chocolate_truffle_price"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/menu_arrow_3"
+                app:layout_constraintStart_toStartOf="@id/menu_description_3"
+                app:layout_constraintTop_toBottomOf="@id/menu_description_3" />
+
+            <TextView
                 android:id="@+id/menu_arrow_3"
                 android:layout_width="32dp"
                 android:layout_height="wrap_content"
@@ -247,30 +282,45 @@
 
             <View
                 android:id="@+id/menu_card_iced_vanilla_frappuccino"
-                android:layout_width="204dp"
-                android:layout_height="110dp"
-                android:layout_marginTop="22dp"
+                android:layout_width="202dp"
+                android:layout_height="115dp"
+                android:layout_marginTop="16dp"
                 android:background="#FAF7F2"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/menu_iced_vanilla_frappucino"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/menu_description_4"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/playfair_display"
                 android:gravity="start|center_vertical"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
                 android:text="@string/Creamy_real_vanilla_frosty_bliss_in_every_sip."
                 android:textColor="@color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 app:layout_constraintStart_toStartOf="@id/menu_card_iced_vanilla_frappuccino"
                 app:layout_constraintEnd_toStartOf="@id/menu_arrow_4"
                 app:layout_constraintTop_toTopOf="@id/menu_card_iced_vanilla_frappuccino"
                 app:layout_constraintBottom_toBottomOf="@id/menu_card_iced_vanilla_frappuccino" />
+
+            <TextView
+                android:id="@+id/menu_price_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:text="@string/vanilla_frappe_price"
+                app:layout_constraintTop_toBottomOf="@id/menu_description_4"
+                app:layout_constraintStart_toStartOf="@id/menu_description_4"
+                app:layout_constraintEnd_toStartOf="@id/menu_arrow_4"
+
+                />
 
             <TextView
                 android:id="@+id/menu_arrow_4"
