@@ -17,13 +17,21 @@ class CheckoutFragment : Fragment(R.layout.fragment_checkout) {
 
 
         val checkoutName = requireArguments().getString("drinkName")
+        val checkoutDescription = requireArguments().get()
         val checkoutPrice = requireArguments().getString("drinkPrice")
-        val checkoutImage = requireArguments().getString("drinkImage")
+        val checkoutImage = requireArguments().getInt("drinkImage")
 
         val checkoutDrinkName = view.findViewById<TextView>(R.id.checkout_name)
         val checkoutPriceAmount = view.findViewById<TextView>(R.id.total_price)
         val checkoutImageImage =
             view.findViewById<ImageView>(R.id.checkout_img_chocolate_truffle_mocha)
+
+
+        checkoutDrinkName.setText(checkoutName)
+        checkoutPriceAmount.setText(checkoutPrice)
+        checkoutImageImage.setImageResource(checkoutImage)
+
+
 
 
 

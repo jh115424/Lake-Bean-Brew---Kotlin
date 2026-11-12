@@ -35,6 +35,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
         drinkBrownSugar.setOnClickListener {
             val bundle = bundleOf(
                 "drinkName" to "Brown Sugar Brew",
+                "drinkDescription" to "Smooth cold brew with sweet brown sugar",
                 "drinkPrice" to "5.75",
                 "drinkImage" to R.drawable.brown_sugar_brew
 
@@ -48,6 +49,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
 
             val bundle = bundleOf(
                 "drinkName" to "Caramel Frappuccino",
+                "drinkDescription" to "Sweet coffee, bold coffee, pure bliss...",
                 "drinkPrice" to "6.75",
                 "drinkImage" to R.drawable.caramel_frappuccino
             )
@@ -56,6 +58,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
         drinkChocTruffle.setOnClickListener {
             val bundle = bundleOf(
                 "drinkName" to "Chocolate Truffle Mocha",
+                "drinkDescription" to "Rich chocolate, velvety mocha, pure indulgence",
                 "drinkPrice" to "7.25",
                 "drinkImage" to R.drawable.chocolate_truffle_mocha
             )
@@ -65,6 +68,7 @@ class MenuFragment : Fragment(R.layout.fragment_menu) {
         drinkVanillaFrappe.setOnClickListener {
             val bundle = bundleOf(
                 "drinkName" to "Iced Vanilla Frappuccino",
+                "drinkDescription" to "Creamy real vanilla, frosty bliss in every sip",
                 "drinkPrice" to "6.50",
                 "drinkImage" to R.drawable.iced_vanilla_frappuccino
             )
